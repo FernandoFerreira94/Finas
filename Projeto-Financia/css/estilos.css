@@ -1,0 +1,78 @@
+.icon {
+  color: darkblue;
+}
+
+body {
+  background-color: rgb(255, 200, 0);
+}
+
+div {
+  border: 1px solid red;
+}
+
+.imgLogo {
+  width: 150px;
+  height: 40px;
+}
+
+.imgConteudo {
+  width: 450px;
+  height: 550px;
+  float: right;
+}
+
+.imgTabela {
+  width: 450px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.imgTabela2 {
+  width: 100%;
+}
+
+.btnLogo {
+  color: white;
+  border: 1px solid white;
+  font-size: 20px;
+}
+
+.logo a {
+  color: rgba(25, 23, 23, 0.79);
+  font-size: 18px;
+  margin-left: -5px;
+}
+
+.logo a:hover {
+  border-radius: 10px;
+  background-color: rgb(255, 155, 0);
+  color: white;
+}
+
+.texto {
+  float: left;
+  padding-top: 145px;
+  color: white;
+}
+.texto p {
+  font-size: 20px;
+}
+
+.email {
+  width: 550px;
+}
+
+.conteudo2 {
+  background-color: white;
+}
+.conteudo2 p {
+  font-size: 20px;
+}
+
+.saiba {
+  margin-top: 30px;
+}
+
+.text {
+  margin-top: 160px;
+}
