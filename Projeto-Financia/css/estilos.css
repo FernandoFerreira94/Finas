@@ -6,10 +6,6 @@ body {
   background-color: rgb(255, 200, 0);
 }
 
-div {
-  border: 1px solid red;
-}
-
 .imgLogo {
   width: 150px;
   height: 40px;
@@ -28,6 +24,10 @@ div {
 }
 
 .imgTabela2 {
+  width: 80%;
+}
+
+.imgBot img {
   width: 100%;
 }
 
@@ -38,15 +38,67 @@ div {
 }
 
 .logo a {
-  color: rgba(25, 23, 23, 0.79);
+  color: black;
   font-size: 18px;
   margin-left: -5px;
+  text-decoration: none;
 }
 
-.logo a:hover {
+.logo a::after {
+  color: black;
+  content: "";
+  display: block;
+  width: 0px;
+  height: 3px;
+  background-color: black;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.logo a:hover::after {
   border-radius: 10px;
-  background-color: rgb(255, 155, 0);
-  color: white;
+  background-color: black;
+  color: black;
+  width: 100%;
+}
+
+.email {
+  width: 550px;
+}
+
+.conteudo2 {
+  background-color: rgb(225, 224, 224);
+}
+.conteudo2 p {
+  font-size: 20px;
+}
+
+.conteudoBot h3 {
+  margin-top: 30px;
+}
+.conteudoBot p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.contato a {
+  color: black;
+}
+
+.endereco img {
+  width: 110%;
+  height: 100%;
+}
+.endereco p {
+  margin-bottom: 0px;
+}
+
+.textSaiba {
+  margin-top: 30px;
+}
+
+.textJuros {
+  margin-top: 200px;
 }
 
 .texto {
@@ -56,23 +108,4 @@ div {
 }
 .texto p {
   font-size: 20px;
-}
-
-.email {
-  width: 550px;
-}
-
-.conteudo2 {
-  background-color: white;
-}
-.conteudo2 p {
-  font-size: 20px;
-}
-
-.saiba {
-  margin-top: 30px;
-}
-
-.text {
-  margin-top: 160px;
 }
