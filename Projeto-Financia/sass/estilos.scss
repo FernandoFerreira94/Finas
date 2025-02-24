@@ -1,0 +1,126 @@
+$fundo:  rgb(255, 200, 0);
+$letra: white;
+$P: 20px;
+.icon {
+   color: darkblue;
+}
+
+body {
+   background-color: $fundo
+}
+
+
+//imagens
+.imgLogo {
+   width: 150px;
+   height: 40px;
+}
+.imgConteudo {
+   width: 450px;
+   height: 550px;
+   float: right;
+}
+.imgTabela {
+   width: 450px;
+   height: 300px;
+   margin-top: 20px;
+}
+.imgTabela2 {
+   width: 80%;
+}
+
+.imgBot img {
+   width: 100%;
+}
+
+// Botao
+.btnLogo {
+   color: white;
+   border: 1px solid white;
+   font-size: 20px;
+}
+
+//Navegação
+.logo a {
+   color: black;
+   font-size: 18px;  
+   margin-left: -5px;
+   text-decoration: none;
+}
+.logo a::after {
+   color: black;
+   content: "";
+   display: block;
+   width: 0px;
+   height: 3px;
+   background-color: black;
+   transition: .5s ease-out;
+   text-decoration: none;
+}
+.logo a:hover::after  {
+   border-radius: 10px;
+   background-color:black;
+   color: black;
+   width: 100%;
+   text-decoration: none;
+}
+
+//Conteudo Top
+.email {
+   width: 550px;
+}
+
+//Conteudo Mid
+.conteudo2 {
+   background-color: rgb(225, 224, 224);
+   p {
+      font-size: $P    
+   }   
+}
+
+//Conteudo Bot
+.conteudoBot {
+   h3 {
+      margin-top: 30px;
+   }
+   p {
+      margin-top: 10px;
+      margin-bottom: 30px;
+   }
+}
+
+.contato a {
+   color: black;
+}
+
+.endereco {
+   img {
+      width: 110%;
+      height: 100%;
+   }
+   p {
+      margin-bottom: 0px;
+   }
+}
+
+.parceria a {
+   text-decoration: none;
+}
+
+//Texto conteudo
+.textSaiba {
+   margin-top: 30px;
+}
+
+.textJuros {
+   margin-top: 200px;
+}
+
+.texto {
+   float: left;
+   padding-top: 145px;
+   color: $letra;
+   p {
+      font-size: $P
+   }
+}
